@@ -4,7 +4,7 @@ import json
 def get_mempool_transactions():
     # Mempool Space API endpoint for getting mempool transactions
     url = "https://mempool.space/api/mempool"
-    
+    # Returns current mempool backlog statistics.
     try:
         # Send a GET request
         response = requests.get(url)
